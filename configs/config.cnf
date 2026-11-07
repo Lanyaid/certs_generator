@@ -17,4 +17,3 @@ DIGEST="sha256"
 
 # Clé privée non chiffrée ; le script applique chmod 600.
 ENCRYPT_KEY="no"
-

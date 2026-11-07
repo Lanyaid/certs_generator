@@ -2,5 +2,5 @@
 *.cert*
 *.key*
 *.srl*
-!*.certconfig
+!*.certconf
 

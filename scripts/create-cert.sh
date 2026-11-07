@@ -4,8 +4,8 @@ set -Eeuo pipefail
 # Répertoires calculés à partir de l'emplacement du script.
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
-CONFIG_FILE="$SCRIPT_DIR/config.cnf"
-ENV_DIR="$SCRIPT_DIR/environments"
+CONFIG_FILE="$ROOT_DIR/configs/config.cnf"
+ENV_DIR="$ROOT_DIR/configs"
 CA_DIR="$ROOT_DIR/CA"
 CERTS_DIR="$ROOT_DIR/certs"
 

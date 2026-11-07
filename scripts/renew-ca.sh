@@ -3,7 +3,7 @@ set -Eeuo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
-CONFIG_FILE="$SCRIPT_DIR/config.cnf"
+CONFIG_FILE="$ROOT_DIR/configs/config.cnf"
 CA_DIR="$ROOT_DIR/CA"
 
 if ! command -v openssl >/dev/null 2>&1; then
